@@ -1,5 +1,5 @@
 {% set name = "num2words" %}
-{% set version = "0.5.10" %}
+{% set version = "0.5.11" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 37cd4f60678f7e1045cdc3adf6acf93c8b41bf732da860f97d301f04e611cc57
+  sha256: 6c684e2220d8adb3612d2c807a9772cc3269963fbcd77f7979b689a77f6043d4
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv
 
 requirements:
@@ -31,7 +31,7 @@ about:
   license: LGPL-2.1-or-later
   license_family: LGPL
   license_file: COPYING
-  summary: "Modules to convert numbers to words. Easily extensible."
+  summary: Modules to convert numbers to words. Easily extensible.
   dev_url: https://github.com/savoirfairelinux/num2words
 
 extra:
