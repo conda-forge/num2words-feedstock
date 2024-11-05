@@ -1,11 +1,11 @@
-About num2words
-===============
+About num2words-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/num2words-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/savoirfairelinux/num2words
 
 Package license: LGPL-2.1-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/num2words-feedstock/blob/main/LICENSE.txt)
 
 Summary: Modules to convert numbers to words. Easily extensible.
 
