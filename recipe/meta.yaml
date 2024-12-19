@@ -1,13 +1,13 @@
 {% set name = "num2words" %}
-{% set version = "0.5.12" %}
+{% set version = "0.5.14" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 7e7c0b0f080405aa3a1dd9d32b1ca90b3bf03bab17b8e54db05e1b78301a0988
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: b066ec18e56b6616a3b38086b5747daafbaa8868b226a36127e0451c0cf379c6
 
 build:
   noarch: python
